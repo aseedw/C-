@@ -15,3 +15,6 @@ private void dataGridView1_CellContentClick(object sender, DataGridViewCellEvent
 {
             MessageBox.Show(e.RowIndex.ToString() + " and " + e.ColumnIndex.ToString());
 }
+
+// Set checked/unchecked
+dataGridView1.Rows[0].Cells[3].Value=true;
